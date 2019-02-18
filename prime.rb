@@ -1,6 +1,6 @@
 def prime?(n)
   result = true
-  if n < 2
+  if n < 0
     result = false
   end
   for i in 2..n-1
